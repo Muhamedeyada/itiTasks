@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid #000;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container_form">
+      <form>
+        <label>Book Name</label>
+        <input id="bookName" type="text" required />
+        <br />
+        <span id="bookNameSpan"></span>
+        <br /><br />
+        <label>Book Price</label>
+        <input id="bookPrice" type="number" required />
+        <br />
+        <span id="authorPriceSpan"></span>
+        <br /><br />
+        <label>Author Name</label>
+        <input id="authorName" type="text" required />
+        <br />
+        <span id="authorNameSpan"></span>
+        <br /><br />
+        <label>Author Email</label>
+        <input id="authorEmail" type="email" required />
+        <br />
+        <span id="authorEmailSpan"></span>
+        <br /><br />
+        <input id="button" type="button" value="Add" />
+      </form>
+    </div>
+    <table id="table" style="display: none">
+      <thead>
+        <tr>
+          <th>Book Name</th>
+          <th>Book Price</th>
+          <th>Author Name</th>
+          <th>Author Email</th>
+        </tr>
+      </thead>
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>
